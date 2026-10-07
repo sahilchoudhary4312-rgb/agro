@@ -1,0 +1,70 @@
+INFO:     Started server process [4292]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:57453 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57455 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57456 - "GET /api/farmers/produce HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57457 - "GET /api/forecast?listing_id=1db966c1-1e0a-480d-b22b-ade79ef39b9e HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57459 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57460 - "GET /api/farmers/produce HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57461 - "GET /api/forecast?listing_id=1db966c1-1e0a-480d-b22b-ade79ef39b9e HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57463 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57464 - "GET /api/farmers/produce HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57465 - "GET /api/forecast/3271c45b-0bed-4dde-8222-f6fefbf2b168 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57467 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57468 - "GET /api/farmers/produce HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57469 - "GET /api/forecast/3271c45b-0bed-4dde-8222-f6fefbf2b168 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54489 - "GET /api/buyers/me/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54490 - "GET /api/buyers/me/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61988 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58753 - "GET /api/buyers/me/dashboard HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:58754 - "GET /api/buyers/me/dashboard HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:49706 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60738 - "GET /api/public/crops HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60739 - "GET /api/public/crops HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60740 - "GET /api/forecast/9ce20ebd-4d4d-4669-ab25-d74b8da775b7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56989 - "GET /api/public/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56990 - "GET /api/public/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59552 - "GET /api/public/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59553 - "GET /api/public/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60645 - "GET /api/public/crops HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60648 - "GET /api/public/crops HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60646 - "GET /api/markets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60647 - "GET /api/markets/prices HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51381 - "GET /api/markets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49748 - "GET /api/markets/prices HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59817 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53774 - "GET /api/notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53771 - "GET /api/farmers/produce HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53773 - "GET /api/transactions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52734 - "GET /api/farmers/produce HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60902 - "GET /api/notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53772 - "GET /api/offers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60949 - "GET /api/transactions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63586 - "GET /api/offers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65355 - "GET /api/markets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65354 - "GET /api/public/crops HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65356 - "GET /api/markets/prices HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57988 - "GET /api/markets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56492 - "GET /api/public/crops HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57107 - "GET /api/markets/prices HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59556 - "GET /api/public/crops HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59557 - "GET /api/farmers/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59558 - "GET /api/farmers/produce HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55379 - "GET /api/public/crops HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54904 - "GET /api/farmers/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54903 - "GET /api/farmers/produce HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64693 - "GET /api/farmers/produce HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49675 - "GET /api/matching/farmer-buyers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52639 - "GET /api/farmers/produce HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63752 - "GET /api/matching/farmer-buyers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62922 - "GET /api/offers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53868 - "GET /api/offers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59953 - "GET /api/transactions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49985 - "GET /api/transactions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60566 - "GET /api/public/crops HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56882 - "GET /api/public/crops HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55468 - "GET /api/forecast/9ce20ebd-4d4d-4669-ab25-d74b8da775b7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55257 - "GET /api/transactions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59467 - "GET /api/transactions HTTP/1.1" 200 OK
